@@ -4,7 +4,7 @@ import re
 
 # espera o caminho/nome do arquivo .pdf
 
-with pdfplumber.open('pedido_notebook.pdf') as pdf:
+with pdfplumber.open('pedido_notebook_2.pdf') as pdf:
 
 # Pegando apenas a primeira pagina do arquivo
 
@@ -52,6 +52,6 @@ with pdfplumber.open('pedido_notebook.pdf') as pdf:
 
 # transforma o df em um arquivo excel.
 
-    arquivo.to_excel("arquivo.xlsx")
+    arquivo.to_excel("arquivo_2.xlsx")
     
     print("Scraping concluido!")
