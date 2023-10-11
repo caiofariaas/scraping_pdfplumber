@@ -33,4 +33,3 @@ with pdfplumber.open('pedido_notebook.pdf') as pdf:
     arquivo = pd.DataFrame(linhas,columns=header)
     arquivo.to_excel("arquivo.xlsx")
     print("Scraping concluido!")
-
